@@ -14,12 +14,12 @@ while (evenOdd !== 'pari' && evenOdd !== 'dispari') {
   console.log('Hai scelto :' + ' ' + evenOdd);
 }
 
-var numberUser = [1, 2, 3, 4, 5, 6];
-
-  var number = parseInt(prompt('Scegli un numero da 1 a 5'));
+// Scelta numero
+var number = parseInt(prompt('Scegli un numero da 1 a 5'));
   console.log('Il numero inserito :' + ' ' + number);
 
 // Controllo sull'inserimento corretto
+// var numberUser = [1, 2, 3, 4, 5, 6];
 // for (var i = 0; i < numberUser.length; i++) {
 //   console.log('Il numero inserito :' + ' ' + number);
 // }
@@ -40,8 +40,10 @@ var result;
 
 if (sum % 2 == 0 ) {
   result = 'Hai vinto';
+  alert('Hai vinto');
 }else{
   result = 'Hai perso, ritenta';
+  alert('Hai perso, ritenta');
 }
 
 console.log(result);
